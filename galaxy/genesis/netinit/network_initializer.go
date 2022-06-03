@@ -13,4 +13,4 @@ func GetContractBin() []byte {
 }
 
 // ContractAddress is the NetworkInitializer contract address
-var ContractAddress = common.HexToAddress("0xd1005eed00000000000000000000000000000000")
+var ContractAddress = common.HexToAddress("0xEAB1000000000000000000000000000000000111")

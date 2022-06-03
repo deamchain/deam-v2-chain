@@ -11,9 +11,9 @@ import (
 	"github.com/deamchain/deam-v2-base/lachesis"
 	"github.com/ethereum/go-ethereum/common"
 
+	"go-galaxy/galaxy"
 	"go-galaxy/inter"
 	"go-galaxy/inter/iblockproc"
-	"go-galaxy/galaxy"
 	"go-galaxy/utils/concurrent"
 	"go-galaxy/utils/migration"
 )
@@ -81,7 +81,7 @@ type kvEntry struct {
 }
 
 func (s *Store) recoverTxHashes() error {
-	if s.GetRules().NetworkID != 0xfa {
+	if s.GetRules().NetworkID != 36 {
 		return nil
 	}
 

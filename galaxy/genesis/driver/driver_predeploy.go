@@ -13,4 +13,4 @@ func GetContractBin() []byte {
 }
 
 // ContractAddress is the NodeDriver contract address
-var ContractAddress = common.HexToAddress("0xd100a01e00000000000000000000000000000000")
+var ContractAddress = common.HexToAddress("0xeaB100000000000000000000000000000000001e")
